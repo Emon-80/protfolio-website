@@ -1,0 +1,49 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+.nav-li-title a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    padding: 10px 0px 0px ;
+
+}
+.btn-primary{
+    background-color: rgba(230, 125, 130, 0.984);
+    font-size: 30px ;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px
+}
+.nav-title{
+    font-size: 60px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 70px;
+}
+.mary{
+    color: rgba(255, 127, 80, 0.759);
+}
+.header-container{
+    height: 800px;
+    background-image: url('../images/hardy.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color:  rgb(242, 218, 218)
+}
+.nav-li-btn{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin:0px 20px;
+}
