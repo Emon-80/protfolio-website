@@ -75,6 +75,14 @@
     margin:100px 30px;
     font-size: 30px;
 }
+.about-container{
+    text-align: center;
+    width: 40% ;
+    justify-content: center;
+    align-items: center;
+
 }
+.about-describe{
+    justify-content: center;
     
 }
