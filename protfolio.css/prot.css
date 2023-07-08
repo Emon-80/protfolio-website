@@ -22,23 +22,24 @@
     font-size: 30px ;
     border: 0px;
     padding: 10px;
-    border-radius: 5px
-    padding: 10px;
+    border-radius: 10px;
+
+    
 }
 .nav-title{
-    font-size: 60px;
+    font-size: 70px;
     justify-content: center;
-    padding: 20px;
-    margin-left: 70px;
+    padding: 10px;
+    margin-left: 100px;
 }
 .mary{
     color: rgba(255, 127, 80, 0.759);
 }
 .header-container{
-    height: 800px;
-    background-image: url('../images/hardy.png'), url('../images/header_bg.png');
+    height: 950px;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position:bottom left, bottom right;
     background-color:  rgb(242, 218, 218)
 }
 .nav-li-btn{
@@ -46,11 +47,34 @@
     justify-content: center;
     padding: 10px;
     margin:0px 20px;
+    
+    
 }
+
+/* banner info */
+
 .banner-details{
-    width: 200px;
+    width: 300px;
+    /* text-align: center; */
+    margin: 10px;
+}
+   
+.banner-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px 5px 200px;
+    /* text-align: center; */
+}
+.img-hardy{
+    position: bottom right;
+    margin: 5px 5px 0px 30px;
+    padding-bottom: 0px;
+    padding-right: 20px;
 }
 .banner-container{
-    align-items:bottom center;
+    margin:100px 30px;
+    font-size: 30px;
+}
+}
     
 }
