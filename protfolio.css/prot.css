@@ -57,6 +57,7 @@
     width: 300px;
     /* text-align: center; */
     margin: 10px;
+    align-items: center;
 }
    
 .banner-header{
@@ -75,14 +76,48 @@
     margin:100px 30px;
     font-size: 30px;
 }
-.about-container{
-    text-align: center;
-    width: 40% ;
+
+/* about section started */
+.m
+
+.about{
+    
+   text-align: right;
+   
+    background-color: rgb(217, 129, 21);
+   
+    
+  
+   
+}
+.about-section{text-align: center;
+    
     justify-content: center;
     align-items: center;
+    background-color: rgb(223, 141, 41);
+    max-width: 1300px;
+    margin: 0px 150px;
+    
+
+}
+.about-title{
 
 }
 .about-describe{
     justify-content: center;
+    
+}
+
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.www{
+    
+    text-align: center;
     
 }

@@ -1,0 +1,144 @@
+.head-title{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   background-color:  #f4f6f8fa;
+   width: 1100px 100%S;
+   
+   
+   
+}
+.title{
+    margin-left: 100px;
+}
+.special{
+    color: rgb(130, 14, 14);
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+
+}   
+.nav-key{
+    margin: 20px;
+    
+}
+.button{
+    margin: 20px;
+    
+}
+.btn-prime{
+    padding: 5px;
+    background-color: rgb(245, 7, 7);
+    border: none;
+    border-radius: 8px;
+
+}
+    
+/* banner started */
+
+.banner{
+    display: flex;
+    background-color: #f4f6f8fa;
+    align-items: center;
+    background-image: url('./images/developer.png'), url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+.banner-box{
+    margin-left: 100px;
+    justify-content: center;
+}
+.banner-detail{
+    width: 50%;
+}
+.button-box{
+    display: flex;
+    margin-right: 20px;
+    
+}
+.img-hardy{
+    size: 100%;
+}
+
+/* about started */
+
+.about{
+    background-color:  #f4f6f8fa;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0px 200px;
+}
+.ab-info{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ab-detail{
+    padding: 0px 20px;
+}
+.ab-box{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding: 0px 10px;
+}
+
+/* section what i do started */
+
+.sec-con{
+    justify-content: center;
+    margin: 0px 100px;
+    
+}
+.sec-title{
+    text-align: center;
+    
+   
+}
+.sec-box{
+    display: flex;
+}
+.js{
+    background-color: #f4f6f8fa;
+    margin: 10px;
+}
+
+/* resume section start */
+
+.resume{
+    justify-content: center;
+    text-align: center;
+}
+
+#re-box{
+    display: flex;
+    justify-content: space-around;
+}
+.re-p{
+    width: 500px;
+}
+#my-edu{
+   background-color: #f4f6f8fa;
+}
+#my-ex{
+    background-color: #f4f6f8fa;
+}
+.btn-down{
+    text-align: center;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+/* footer section started */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 231, 217);
+    margin: 30px 150px 0px;
+}
+.foot-p{
+    width: 50%;
+}
